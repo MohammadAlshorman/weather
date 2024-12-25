@@ -43,7 +43,7 @@ export default function MainContext() {
         <input type="text" value={city} placeholder="Enter Location" onChange={(e) => setCity(e.target.value)} onKeyPress={getWeatherData} />
       </div>
 
-      <h1 style={{ position: 'absolute', top: '50%', display: currentDisplay }} className='display-4 '>Search for a location to view Weather Data</h1>
+      <h1 style={{ position: 'absolute', top: '50%', display: currentDisplay }} className='display-4 '>Search for a location to view Weather Data by using website Mohammad al-shorman</h1>
       {weatherData.main ? <TimeBox temperature={toCelsius(weatherData.main.temp)} /> : null}
       {weatherData.main ? <WeatherInfo temperature={toCelsius(weatherData.main.temp)} name={weatherData.name} clouds={weatherData.weather[0].main} humidity={weatherData.main.humidity} speed={weatherData.wind.speed} visibility={weatherData.visibility} /> : null}
     <br/></div >
