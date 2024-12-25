@@ -1,4 +1,4 @@
-# Weather
+# Weather 🌦️
 real-time weather information for any city 🌦️
 
 <hr>
