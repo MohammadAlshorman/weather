@@ -1,0 +1,20 @@
+#timeBox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    justify-content: space-around;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* media Quires  */
+@media only screen and (max-width: 977px) {
+    #timeBox {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .temperature {
+        margin: 10px 0px;
+    }
+}
