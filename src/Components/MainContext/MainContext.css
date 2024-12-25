@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     background-image: url("./../../Assets/images.png");
-    background-repeat: no-repeat;
+   /* background-repeat: no-repeat;*/
     background-size: cover;
     box-sizing: border-box;
     /* width: auto; */
