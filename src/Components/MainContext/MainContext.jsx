@@ -50,7 +50,7 @@ export default function MainContext() {
     fontWeight: 'bolder', 
     opacity: 0.5, 
     backgroundColor: '#000000' 
-  }}  className='display-4 '>Search for a location to view Weather Data by using website Mohammad al-shorman</h1>
+  }}  className='display-4 '> Mohammad al-shorman</h1>
       {weatherData.main ? <TimeBox temperature={toCelsius(weatherData.main.temp)} /> : null}
       {weatherData.main ? <WeatherInfo temperature={toCelsius(weatherData.main.temp)} name={weatherData.name} clouds={weatherData.weather[0].main} humidity={weatherData.main.humidity} speed={weatherData.wind.speed} visibility={weatherData.visibility} /> : null}
     <br/></div >
