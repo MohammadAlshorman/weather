@@ -14,11 +14,10 @@ HTML, CSS, and JavaScript for the structure and interactivity
 Bootstrap for responsive design
 Weather API for fetching live weather data
 Whether you're planning your day or just curious about the weather anywhere, Weather Finder provides quick, accurate, and easy-to-read weather updates. 🌤️
-
 <hr>
-# Check it out and let me know what you think! :
-https://weatherorange.netlify.app/
 
+# Check it out and let me know what you think: <br>
+https://weatherorange.netlify.app/
 <hr>
 
 # #ReactJS #WeatherApp #JavaScript #API #WebDevelopment #FrontEnd #Bootstrap #TechInnovation
